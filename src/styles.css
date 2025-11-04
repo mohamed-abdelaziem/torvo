@@ -1,1 +1,91 @@
-/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+
+
+* {
+font-family: "Space Grotesk", sans-serif;
+scroll-behavior: smooth;
+}
+
+:root {
+--main-color: #21b85c;
+--second-color : #16517f ;
+--btn-bg : #00adc0 ;
+--third-color : #1e2128 ;
+}
+
+
+.third-color {
+background-color: var(--third-color);
+}
+
+
+body {
+background-color: #000 !important;
+}
+
+.Syncopate {
+ font-family: "Syncopate", sans-serif;
+ overflow-x: hidden !important;
+}
+
+.Grotesk {
+font-family: "Space Grotesk", sans-serif;
+}
+
+.btn-text {
+color: #00a0e3;
+border: 1px solid #00a0e3;
+}
+
+
+.bg-main {
+background-color: var(--main-color);
+}
+
+.second {
+color: var(--second-color);
+font-weight: bold;
+}
+
+.btn-bg {
+background-color: var(--btn-bg);
+}
+
+body {
+height: 1000px;
+}
+
+
+::selection {
+background-color: var(--btn-bg);
+color: white;
+}
+
+body:has(#home:target) nav ul li a[href="#home"] {
+color: var(--btn-bg);
+}
+
+body:has(#about:target) nav ul li a[href="#about"] {
+color: var(--btn-bg);
+}
+
+
+body:has(#service:target) nav ul li a[href="#service"] {
+color: var(--btn-bg);
+}
+
+
+
+body:has(#portfolio:target) nav ul li a[href="#portfolio"] {
+color: var(--btn-bg);
+}
+
+
+
+body:has(#mission:target) nav ul li a[href="#mission"] {
+color: var(--btn-bg);
+}

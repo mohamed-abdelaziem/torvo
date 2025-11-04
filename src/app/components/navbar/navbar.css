@@ -1,0 +1,7 @@
+a img {
+filter: brightness(20px);
+}
+
+nav {
+box-shadow: rgba(255, 255, 255, 0.347) 0px 3px 8px;
+}
