@@ -21,6 +21,8 @@ export class Carousel {
     touchDrag: true,
     pullDrag: true,
     dots: true,
+    dotsData:false ,
+    navText : ["next" , "prev"],
     autoplaySpeed : 500 ,
     navSpeed: 1000,
     responsive: {
@@ -33,11 +35,11 @@ export class Carousel {
         margin : 10,
       },
       740: {
-        items: 3,
+        items: 4,
         margin : 20 ,
       },
       940: {
-        items: 4 , 
+        items: 6 , 
         margin : 20
       }
     },
