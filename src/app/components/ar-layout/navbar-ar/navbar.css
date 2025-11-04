@@ -1,3 +1,6 @@
+* {
+direction: rtl;
+}
 a img {
 filter: brightness(20px);
 }

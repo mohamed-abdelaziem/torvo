@@ -1,0 +1,19 @@
+import { Navbar } from './../../en-layout/navbar/navbar';
+import { Home } from './../../en-layout/home/home';
+import { WhyTorvo } from "../../en-layout/why-torvo/why-torvo";
+import { Mission } from '../../en-layout/mission/mission';
+import { Service } from '../../en-layout/service/service';
+import { Carousel } from '../carousel/carousel';
+import { About } from '../../en-layout/about/about';
+import { Steps } from '../../en-layout/steps/steps';
+import { Component } from '@angular/core';
+
+
+
+@Component({
+  selector: 'app-app-en',
+  imports: [Steps, WhyTorvo, Mission, Service, Carousel, About, Home , Navbar],
+  templateUrl: './app-en.html',
+  styleUrl: './app-en.css',
+})
+export class AppEn {}
