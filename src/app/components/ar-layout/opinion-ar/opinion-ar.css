@@ -1,0 +1,4 @@
+section p , h4 , span  , div {
+direction: rtl !important;
+text-align: right !important;
+}

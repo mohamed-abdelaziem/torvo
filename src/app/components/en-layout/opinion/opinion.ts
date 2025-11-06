@@ -1,17 +1,14 @@
 import { Component } from '@angular/core';
-import { OwlOptions } from 'ngx-owl-carousel-o';
-import { CarouselModule } from 'ngx-owl-carousel-o';
+import { CarouselModule, OwlOptions } from "ngx-owl-carousel-o";
+
 @Component({
-  selector: 'app-carousel-ar',
+  selector: 'app-opinion',
   imports: [CarouselModule],
-  templateUrl: './carousel.html',
-  styleUrl: './carousel.css',
+  templateUrl: './opinion.html',
+  styleUrl: './opinion.css',
 })
-
-
-
-export class CarouselAr {
-
+export class Opinion {
+  
  customOptions: OwlOptions = {
     loop: true,
     lazyLoad : true ,
@@ -22,6 +19,8 @@ export class CarouselAr {
     pullDrag: true,
     dots: false,
     dotsData:false ,
+    
+    navText : [`<i class="fa-solid bg-white fa-chevron-right"></i>` , `<i class="fa-solid fa-chevron-left"></i>`],
     autoplaySpeed : 500 ,
     navSpeed: 1000,
     responsive: {
@@ -30,7 +29,7 @@ export class CarouselAr {
         margin : 0 ,
       },
       400: {
-        items: 1 ,
+        items: 2 ,
         margin : 10,
       },
       740: {
@@ -38,12 +37,11 @@ export class CarouselAr {
         margin : 20 ,
       },
       940: {
-        items: 6 , 
+        items: 4 , 
         margin : 20
       }
     },
     nav: false
   }
-
 
 }

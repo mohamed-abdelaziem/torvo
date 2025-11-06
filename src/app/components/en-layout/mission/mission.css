@@ -3,8 +3,7 @@ background-image: url("../../../../../public/images/mission-bg.png");
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
-min-height: 70vh;
 width: 100% !important;
-padding-block: 50px;
+min-height: 80vh;
 background-attachment: fixed;
 }

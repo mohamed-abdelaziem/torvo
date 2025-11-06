@@ -7,12 +7,13 @@ import { Carousel } from '../carousel/carousel';
 import { About } from '../../en-layout/about/about';
 import { Steps } from '../../en-layout/steps/steps';
 import { Component } from '@angular/core';
+import { Opinion } from "../opinion/opinion";
 
 
 
 @Component({
   selector: 'app-app-en',
-  imports: [Steps, WhyTorvo, Mission, Service, Carousel, About, Home , Navbar],
+  imports: [Steps, WhyTorvo, Mission, Service, Carousel, About, Home, Navbar, Opinion],
   templateUrl: './app-en.html',
   styleUrl: './app-en.css',
 })

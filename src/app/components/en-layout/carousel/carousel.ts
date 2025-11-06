@@ -20,9 +20,10 @@ export class Carousel {
     autoplay : true,
     touchDrag: true,
     pullDrag: true,
-    dots: true,
+    dots: false,
     dotsData:false ,
-    navText : ["next" , "prev"],
+    
+    navText : [`<i class="fa-solid bg-white fa-chevron-right"></i>` , `<i class="fa-solid fa-chevron-left"></i>`],
     autoplaySpeed : 500 ,
     navSpeed: 1000,
     responsive: {
