@@ -9,9 +9,11 @@ import { MissionAr } from '../mission-ar/mission';
 import { WhyTorvoAr } from '../why-torvo-ar/why-torvo';
 import { StepsAr } from '../steps-ar/steps';
 import { OpinionAr } from "../opinion-ar/opinion-ar";
+import { LocationAr } from "../location-ar/location-ar";
+import { Footer } from "../../en-layout/app-en/footer/footer";
 @Component({
   selector: 'app-app-ar',
-  imports: [RouterOutlet, NavbarAr, HomeAr, AboutAr, StepsAr, CarouselAr, ServiceAr, MissionAr, WhyTorvoAr, OpinionAr],
+  imports: [RouterOutlet, NavbarAr, HomeAr, AboutAr, StepsAr, CarouselAr, ServiceAr, MissionAr, WhyTorvoAr, OpinionAr, LocationAr, Footer],
   templateUrl: './app-ar.html',
   styleUrl: './app-ar.css',
 })

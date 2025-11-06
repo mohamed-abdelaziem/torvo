@@ -18,6 +18,9 @@ scroll-behavior: smooth;
 }
 
 
+.main-bg {
+background-color: var(--main-color);
+}
 
 
 
