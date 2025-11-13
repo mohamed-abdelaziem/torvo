@@ -4,7 +4,6 @@ background-size: cover;
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
-min-height: 120vh;
 position: relative;
 z-index: 11;
 }
@@ -37,3 +36,6 @@ color: var(--btn-bg);
 background-color: var(--btn-bg);
 color:white;
 }
+
+
+

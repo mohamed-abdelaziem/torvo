@@ -24,6 +24,10 @@ export class CarouselAr {
     dotsData:false ,
     autoplaySpeed : 500 ,
     navSpeed: 1000,
+        navText: [
+    '<i class="fa fa-chevron-left text-white bg-transparent font-semibold"></i>',
+    '<i class="fa fa-chevron-right text-white bg-transparent font-semibold"></i>'
+  ], 
     responsive: {
       0: {
         items: 1,
@@ -42,7 +46,7 @@ export class CarouselAr {
         margin : 20
       }
     },
-    nav: false
+    nav: true
   }
 
 

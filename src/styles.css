@@ -6,9 +6,16 @@
 
 
 * {
-font-family: "Space Grotesk", sans-serif;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 scroll-behavior: smooth;
+scroll-padding-top: 20px;
 }
+
+
+.best-shadow {
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
 
 :root {
 --main-color: #21b85c;
@@ -33,14 +40,7 @@ body {
 background-color: #000 !important;
 }
 
-.Syncopate {
- font-family: "Syncopate", sans-serif;
- overflow-x: hidden !important;
-}
 
-.Grotesk {
-font-family: "Space Grotesk", sans-serif;
-}
 
 .btn-text {
 color: #00a0e3;

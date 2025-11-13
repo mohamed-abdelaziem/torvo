@@ -19,8 +19,10 @@ export class Opinion {
     pullDrag: true,
     dots: false,
     dotsData:false ,
-    
-    navText : [`<i class="fa-solid bg-white fa-chevron-right"></i>` , `<i class="fa-solid fa-chevron-left"></i>`],
+    navText : [
+      '<i class="fa fa-chevron-left text-white bg-transparent mt-2 font-semibold"></i>',
+    '<i class="fa fa-chevron-right text-white bg-transparent mt-2 font-semibold"></i>'
+    ],
     autoplaySpeed : 500 ,
     navSpeed: 1000,
     responsive: {
@@ -41,7 +43,7 @@ export class Opinion {
         margin : 20
       }
     },
-    nav: false
+    nav: true
   }
 
 }

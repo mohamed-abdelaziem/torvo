@@ -10,12 +10,13 @@ import { Component } from '@angular/core';
 import { Opinion } from "../opinion/opinion";
 import { LocationEn } from "../location-en/location-en";
 import { Footer } from "./footer/footer";
+import { Portfolio } from "../portfolio/portfolio";
 
 
 
 @Component({
   selector: 'app-app-en',
-  imports: [Steps, WhyTorvo, Mission, Service, Carousel, About, Home, Navbar, Opinion, LocationEn, Footer],
+  imports: [Steps, WhyTorvo, Mission, Service, Carousel, About, Home, Navbar, Opinion, LocationEn, Footer, Portfolio],
   templateUrl: './app-en.html',
   styleUrl: './app-en.css',
 })

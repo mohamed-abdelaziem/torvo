@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './portfolio.css',
 })
 export class Portfolio {
+activeSection  : string = 'all'
+
 
 }
