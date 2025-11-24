@@ -13,30 +13,30 @@ export class App {
   ngOnInit(): void {
     initFlowbite();}
 
-ngAfterViewChecked(): void {
-const sections = document.querySelectorAll("section");
-const navLinks = document.querySelectorAll(".spy-link");
+// ngAfterViewChecked(): void {
+// const sections = document.querySelectorAll("section");
+// const navLinks = document.querySelectorAll(".spy-link");
 
-const options = {
-  threshold: 0.6, // نسبة ظهور العنصر
-};
+// const options = {
+//   threshold: 0.6, // نسبة ظهور العنصر
+// };
 
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    const id = entry.target.getAttribute("id");
-    const link = document.querySelector(`a[href="#${id}"]`);
+// const observer = new IntersectionObserver((entries) => {
+//   entries.forEach((entry) => {
+//     const id = entry.target.getAttribute("id");
+//     const link = document.querySelector(`a[href="#${id}"]`);
 
-    if (entry.isIntersecting) {
-      navLinks.forEach((link) => link.classList.remove("active"));
-      link?.classList.add("active");
-    }
-  });
-}, options);
+//     if (entry.isIntersecting) {
+//       navLinks.forEach((link) => link.classList.remove("active"));
+//       link?.classList.add("active");
+//     }
+//   });
+// }, options);
 
-sections.forEach((section) => {
-  observer.observe(section);
-});
-}
+// sections.forEach((section) => {
+//   observer.observe(section);
+// });
+// }
 
 
 }

@@ -96,6 +96,10 @@ body:has(#mission:target) nav ul li a[href="#mission"] {
 color: var(--btn-bg);
 }
 
+body:has(#contact:target) nav ul li a[href="#contact"] {
+color: var(--btn-bg);
+}
+
 .owl-nav.ng-star-inserted {
 display: flex;
 justify-content: center;
@@ -116,4 +120,12 @@ line-height: 0;
 
 .spy-link.active {
 color: var(--btn-bg);
+}
+
+
+.service-container img {
+width: 100%;
+height: 400px !important;
+object-fit: cover;
+border-radius: 20px;
 }

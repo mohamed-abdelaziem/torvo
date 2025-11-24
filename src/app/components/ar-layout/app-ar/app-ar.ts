@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { NavbarAr } from '../../ar-layout/navbar-ar/navbar';
 import { HomeAr } from '../../ar-layout/home-ar/home';
 import { AboutAr } from '../about-ar/about';
@@ -14,7 +13,7 @@ import { Footer } from "../../en-layout/app-en/footer/footer";
 import { PortfolioAr } from "../portfolio-ar/portfolio-ar";
 @Component({
   selector: 'app-app-ar',
-  imports: [RouterOutlet, NavbarAr, HomeAr, AboutAr, StepsAr, CarouselAr, ServiceAr, MissionAr, WhyTorvoAr, OpinionAr, LocationAr, Footer, PortfolioAr],
+  imports: [NavbarAr, HomeAr, AboutAr, StepsAr, CarouselAr, ServiceAr, MissionAr, WhyTorvoAr, OpinionAr, LocationAr, Footer, PortfolioAr],
   templateUrl: './app-ar.html',
   styleUrl: './app-ar.css',
 })
