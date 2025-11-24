@@ -20,8 +20,8 @@ export class Opinion {
     dots: false,
     dotsData:false ,
     navText : [
-      '<i class="fa fa-chevron-left text-white bg-transparent mt-2 font-semibold"></i>',
-    '<i class="fa fa-chevron-right text-white bg-transparent mt-2 font-semibold"></i>'
+      '<i class="fa fa-chevron-left"></i>',
+    '<i class="fa fa-chevron-right"></i>'
     ],
     autoplaySpeed : 500 ,
     navSpeed: 1000,

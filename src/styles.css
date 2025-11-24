@@ -95,3 +95,25 @@ color: var(--btn-bg);
 body:has(#mission:target) nav ul li a[href="#mission"] {
 color: var(--btn-bg);
 }
+
+.owl-nav.ng-star-inserted {
+display: flex;
+justify-content: center;
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+background-color: var(--btn-bg) !important;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+display: flex;
+align-items: center !important;
+justify-content: center !important;
+padding: 0 !important;
+line-height: 0;
+}
+
+
+.spy-link.active {
+color: var(--btn-bg);
+}

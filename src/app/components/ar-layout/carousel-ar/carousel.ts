@@ -25,8 +25,8 @@ export class CarouselAr {
     autoplaySpeed : 500 ,
     navSpeed: 1000,
         navText: [
-    '<i class="fa fa-chevron-left text-white bg-transparent font-semibold"></i>',
-    '<i class="fa fa-chevron-right text-white bg-transparent font-semibold"></i>'
+    '<i class="fa fa-chevron-left"></i>',
+    '<i class="fa fa-chevron-right"></i>'
   ], 
     responsive: {
       0: {
