@@ -1,3 +1,4 @@
+/// <reference types="../../../../../@types/jquery" />
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,5 +8,14 @@ import { Component } from '@angular/core';
   styleUrl: './home.css',
 })
 export class HomeAr {
+ngAfterViewInit(): void {
+$(function(){
+  $(".loader").fadeOut(2000,function(){
+    $('.loading').slideUp(2000,function(){
+      $('body').css({overflow : 'auto'});
+    })
+  })
+})
+}
 
 }
