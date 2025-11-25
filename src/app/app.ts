@@ -1,7 +1,7 @@
 import { Component, signal } from '@angular/core';
 import { initFlowbite } from 'flowbite';
 import { RouterOutlet } from '@angular/router';
-/// <reference types="../@types/jquery" />
+/// <reference types="../../@types/jquery" />
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet],
@@ -12,12 +12,15 @@ export class App {
   protected readonly title = signal('Torvo');
 
   ngOnInit(): void {
-
+ 
     initFlowbite();
   
   
   
   }
+
+
+
 
 
 }
