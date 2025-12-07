@@ -24,8 +24,7 @@ width: 100%;
 
 
 body {
-overflow-y: hidden;
-overflow-x: hidden;
+overflow: hidden;
 }
 
 .home-btns a {
