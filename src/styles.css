@@ -5,10 +5,15 @@
 
 
 
+@theme {
+--color-main : var(--btn-bg);
+}
+
+
 * {
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 scroll-behavior: smooth;
-scroll-padding-top: 20px;
+scroll-padding-top: 30px;
 }
 
 
@@ -105,12 +110,14 @@ font-weight: 600;
 
 
 
-body:has(#mission:target) nav ul li a[href="#mission"] {
+
+
+body:has(#contact:target) nav ul li a[href="#contact"] {
 color: var(--btn-bg);
 font-weight: 600;
 }
 
-body:has(#contact:target) nav ul li a[href="#contact"] {
+body:has(#pricing:target) nav ul li a[href="#pricing"] {
 color: var(--btn-bg);
 font-weight: 600;
 }

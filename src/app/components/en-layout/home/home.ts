@@ -1,6 +1,7 @@
 /// <reference types="../../../../../@types/jquery" />
 import { AfterViewInit, Component, OnInit } from '@angular/core';
-
+import { delay } from 'rxjs';
+declare var AOS: any;
 @Component({
   selector: 'app-home',
   imports: [],
@@ -10,14 +11,26 @@ import { AfterViewInit, Component, OnInit } from '@angular/core';
 export class Home implements AfterViewInit {
 
 
+
+
+
 ngAfterViewInit(): void {
+
+  
+
 $(function(){
   $(".loader").fadeOut(2000,function(){
     $('.loading').slideUp(2000,function(){
-      $('body').css({overflow : 'auto'});
+      $('body').css({'overflow-y' : 'auto'});
+      
+      
     })
   })
-})
+});
+
+
+
+
 }
 
 

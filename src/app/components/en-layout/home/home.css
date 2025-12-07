@@ -23,6 +23,10 @@ width: 100%;
 }
 
 
+body {
+overflow: hidden;
+}
+
 .home-btns a {
 transition: 0.5s ease;
 }
